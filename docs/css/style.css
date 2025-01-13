@@ -12,7 +12,7 @@ body {
 
 header {
     font-family: 'Fleur De Leah', cursive;
-    background-image: url('docs/database/images/headerBackground.jpeg');
+    background-image: url('../database/images/headerBackground.jpeg');
     background-size: 500px 400px;
     background-position: center;
     color: rgb(0, 0, 0);
