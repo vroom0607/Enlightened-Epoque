@@ -1,0 +1,136 @@
+body {
+    font-family: 'Alumni Sans Pinstripe', Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 20px;
+    text-align:left;
+}
+
+header {
+    font-family: 'Fleur De Leah', cursive;
+    background-image: url('../../database/images/headerBackground.jpeg');
+    background-size: 500px 400px;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+section {
+    font-family: 'Fleur De Leah', cursive;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    text-align: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+nav a {
+    font-family: 'Fleur De Leah', cursive;
+    color: rgb(0, 0, 0);
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+    font-size: 30px;
+}
+
+a:hover{
+    color:rgb(164, 164, 164)
+}
+
+main {
+    padding: 1em;
+    max-width: 800px;
+    margin: auto;
+    flex: 1; 
+}
+
+.articles-container {
+    display: flex; 
+    row-gap: 75px; 
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+article {
+    background: white;
+    padding: 1em;
+    margin-bottom: 0;
+    width: 800px; 
+    height: 400px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd; 
+    box-sizing: border-box; 
+}
+
+.article-image {
+    max-width: 100%; 
+    height: auto;  
+    display: block; 
+    margin-bottom: 20px; 
+}
+
+article h2 {
+    margin-top: 0;
+    font-family: 'Fleur De Leah', cursive;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+    border-top: 2px solid rgb(0, 0, 0);
+    width: 100%;
+    font-size: 18px;
+}
+
+div {
+    font-family: 'Alumni Sans Pinstripe', Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color:black;
+}
+
+h4 {
+    font-family: 'Alumni Sans Pinstripe', Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color:black;
+    text-decoration: none;
+    line-height: 2;
+    text-align: center;
+}
+
+main a {
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
+    font-size: 24px;
+}
+
+main a:hover{
+    color:rgb(164, 164, 164)
+}

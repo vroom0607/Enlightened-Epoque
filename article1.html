@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year New Me: Misunderstandings of Motivation</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Enlightened &Eacutepoque</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+    </nav>
+    <main>
+        <h1>
+            New Year New Me: Misunderstandings of Motivation
+        </h1>
+        <div id="content">
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Enlightened Époque. All rights reserved</p>
+    </footer>
+    <script>
+        fetch('../../database/text/article1.txt')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.text();
+    })
+    .then(data => {
+        const paragraphs = data.split(/\n\s*\n|[|]|---|\*\*\*/);
+        const formattedContent = paragraphs
+            .filter(para => para.trim() !== '')
+            .map(para => 
+                `<p>${para.replace(/\*\*([^__]+?)\*\*/g, '<strong><u>$1</u></strong>')}</p>`
+            )
+            .join('');
+        document.getElementById('content').innerHTML = formattedContent;
+    })
+    .catch(error => console.error('Error loading text:', error));
+
+    </script>
+</body>
+</html>
