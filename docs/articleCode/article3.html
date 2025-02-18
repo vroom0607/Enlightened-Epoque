@@ -38,6 +38,17 @@
             .then(data => {
                 const paragraphs = data.split(/\n|[|]|---|\*\*\*/);
 
+                const storeLinks = {
+                    "Nike": "https://www.nike.com/",
+                    "Adidas": "https://www.adidas.com/us",
+                    "Dr. Martens": "https://www.drmartens.com/us/en/",
+                    "UGG": "https://www.ugg.com/",
+                    "Converse": "https://www.converse.com/",
+                    "New Balance": "https://www.newbalance.com/",
+                    "Hoka": "https://www.hoka.com/en/us/",
+                    "On": "https://www.on.com/en-us/"
+                };
+
                 const formattedContent = paragraphs
                     .filter(para => para.trim() !== '')
                     .map(para => {
@@ -45,6 +56,12 @@
                         para = para.replace(/_([^__]+?)_/g, '<u>$1</u>');
                         para = para.replace(/\*\*([^*]+?)\*\*/g, '<strong>$1</strong>');
                         
+                        Object.keys(storeLinks).forEach(store => {
+                            const url = storeLinks[store];
+                            const storeRegex = new RegExp(`\\b${store}\\b`, 'g');
+                            para = para.replace(storeRegex, `<a href="${url}" target="_blank">${store}</a>`);
+                        });
+
                         const imgMatch = para.match(/\[img:\s*(.+?)\s*]/);
                         if (imgMatch) {
                             const imagePath = imgMatch[1];
