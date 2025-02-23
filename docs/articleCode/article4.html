@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year New Me: Misunderstandings of Motivation</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Enlightened &Eacutepoque</h1>
+    </header>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+    </nav>
+    <main>
+        <h1>
+            Make or Break your Outfit: Accessories 101
+        </h1>
+        <div id="content">
+        </div>
+    </main>
+    <footer>
+        <p>© 2025 Enlightened Époque. All rights reserved</p>
+    </footer>
+    <script>
+        fetch('../database/text/article4.txt')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.text();
+            })
+            .then(data => {
+                const paragraphs = data.split(/\n|[|]|---|\*\*\*/);
+
+                const storeLinks = {
+                    "Tiffany and Co.": "https://www.tiffany.com/",
+                    "Cartier": "https://www.cartier.com/en-us/home",
+                    "Van Cleef & Arpels": "https://www.vancleefarpels.com/us/en/home.html",
+                    "Mejuri": "https://mejuri.com/",
+                    "Missoma": "https://us.missoma.com/",
+                    "Gorjana": "https://www.gorjana.com/",
+                    "Chanel": "https://www.chanel.com/us/fine-jewelry/",
+                    "Dior": "https://www.dior.com/en_us/fashion/womens-fashion/fashion-jewelry/jewellery",
+                    "Louis Vuitton": "https://us.louisvuitton.com/eng-us/jewelry/categories/all-fine-jewelry/_/N-t1svd8ld"
+                };
+
+                let formattedContent = "";
+                let tableBuffer = [];
+
+                paragraphs.forEach(para => {
+                    para = para.trim();
+
+                    if (para.startsWith("~")) {
+                        tableBuffer.push(para);
+                    } else {
+                        if (tableBuffer.length > 0) {
+                            formattedContent += formatTable(tableBuffer);
+                            tableBuffer = [];
+                        }
+
+                        para = para.replace(/!!/g, '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;');
+                        para = para.replace(/_([^__]+?)_/g, '<u>$1</u>');
+                        para = para.replace(/\*\*([^*]+?)\*\*/g, '<strong>$1</strong>');
+
+                        Object.keys(storeLinks).forEach(store => {
+                            const url = storeLinks[store];
+                            const storeRegex = new RegExp(`\\b${store}\\b`, 'g');
+                            para = para.replace(storeRegex, `<a href="${url}" target="_blank">${store}</a>`);
+                        });
+
+                        const imgMatch = para.match(/\[img:\s*(.+?)\s*]/);
+                        if (imgMatch) {
+                            const imagePath = imgMatch[1];
+                            formattedContent += `<img src="${imagePath}" alt="Image" style="max-width: 300px; height: auto; margin: 10px 0;">`;
+                        } else if (para.startsWith('- ')) {
+                            const items = para.split('\n\s*\n').map(item => item.replace(/^- /, '').trim());
+                            formattedContent += `<ul>${items.map(item => `<li>${item}</li>`).join('')}</ul>`;
+                        } else {
+                            formattedContent += `<p>${para}</p>`;
+                        }
+                    }
+                });
+
+                if (tableBuffer.length > 0) {
+                    formattedContent += formatTable(tableBuffer);
+                }
+
+                document.getElementById('content').innerHTML = formattedContent;
+            })
+            .catch(error => console.error('Error loading text:', error));
+
+        function formatTable(tableLines) {
+            let tableHTML = '<table border="1" style="border-collapse: collapse; width: 100%; text-align: left;">';
+
+            tableLines.forEach((line, index) => {
+                const rowData = line.split('~').map(cell => cell.trim()).filter(cell => cell !== "");
+                if (rowData.length > 0) {
+                    tableHTML += `<tr${index === 0 ? ' style="font-weight: bold; background: #ddd;"' : ''}>`;
+                    rowData.forEach(cell => {
+                        tableHTML += index === 0 ? `<th style="padding: 8px;">${cell}</th>` : `<td style="padding: 8px;">${cell}</td>`;
+                    });
+                    tableHTML += `</tr>`;
+                }
+            });
+
+            tableHTML += '</table>';
+            return tableHTML;
+        }
+    </script>
+</body>
+</html>
