@@ -1,0 +1,27 @@
+{
+  "name": "enlightened-epoque",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vroom0607/Enlightened-Epoque.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vroom0607/Enlightened-Epoque/issues"
+  },
+  "homepage": "https://github.com/vroom0607/Enlightened-Epoque#readme",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^15.0.12",
+    "mongoose": "^8.15.0"
+  }
+}
