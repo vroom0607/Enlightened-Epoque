@@ -7,7 +7,7 @@ description: "Does shoe shopping induce confusion and anxiety? Trouble finding s
 Some people follow the latest shoe drops like keeping up with the news while others may have never given their footwear a second thought after tying the laces. However, we cannot deny that shoes can make or break an outfit…and your health as well! Over a third of the adult population wear incorrectly sized shoes, leading to foot issues, joint pain, and overall discomfort (The Sun). Not to fret though, this guide will break down the important factors that play a role in determining the right pair of shoes for you. Whether it be for work or an evening out, we’ve got you covered!
 
 ### **Factors to Consider**
-Beyond the factor of aesthetics, long-lasting and high-quality footwear is a crucial aspect of your closet. Footwear you own should be pleasing to the eye of course but also durable and comfortable too. Here are some aspects of shoes to consider:
+Beyond the factor of aesthetics, long-lasting and high-quality footwear is a crucial aspect of your closet. Footwear you own should be pleasing to the eye of course but also durable and comfortable too. **Here are some aspects of shoes to consider:**
 
 - **Comfort:** You won’t find yourself reaching for the most stylish pair of shoes if they’re painful to wear. Take note of how your feet feel when standing in them. Could you see yourself wearing these for hours on end? According to the American Podiatric Medical Association, shoes that don’t fit correctly or lack support can lead to long-term foot issues like bunions, plantar fasciitis, and back pain (APMA).
 
