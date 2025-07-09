@@ -27,6 +27,7 @@
     "gridfs-stream": "^1.1.1",
     "marked": "^16.0.0",
     "mongoose": "^8.16.2",
+    "multer": "^2.0.1",
     "sharp": "^0.34.2",
     "slugify": "^1.6.6"
   }
