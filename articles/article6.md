@@ -37,11 +37,11 @@ On days when you're unsure of what to wear, having a few tried-and-true staple o
 
 **Here are a few tips to help you get started:**
 
-**Start with Wardrobe Basics:** Invest in high-quality basics like white t-shirts, black trousers, straight-leg jeans, a classic blazer, and neutral sweaters. These pieces form the foundation of your staple outfits (Vogue, “Capsule Wardrobe Essentials”).
+- **Start with Wardrobe Basics:** Invest in high-quality basics like white t-shirts, black trousers, straight-leg jeans, a classic blazer, and neutral sweaters. These pieces form the foundation of your staple outfits (Vogue, “Capsule Wardrobe Essentials”).
 
-**Test and Refine Combinations:** Experiment with different pairings to find combinations that suit your body type and lifestyle. Keep track of the ones that feel the most comfortable and flattering.
+- **Test and Refine Combinations:** Experiment with different pairings to find combinations that suit your body type and lifestyle. Keep track of the ones that feel the most comfortable and flattering.
 
-**Ensure Versatility:** Choose outfits that work across multiple settings. For example, a blouse and trousers can transition from work to dinner with a quick swap of accessories.
+- **Ensure Versatility:** Choose outfits that work across multiple settings. For example, a blouse and trousers can transition from work to dinner with a quick swap of accessories.
 
 Staple outfits reflect your personal style and they can be anything you feel confident in. For example, I love throwing on a tank top with some jeans because they work as an outfit in the summer and can easily be worn with a cardigan or puffer jacket in the colder months as well. **Here’s an example below:**
 
