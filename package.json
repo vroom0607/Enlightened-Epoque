@@ -24,6 +24,7 @@
     "express": "^5.1.0",
     "express-session": "^1.18.1",
     "gray-matter": "^4.0.3",
+    "gridfs-stream": "^1.1.1",
     "marked": "^16.0.0",
     "mongoose": "^8.16.2",
     "sharp": "^0.34.2",
