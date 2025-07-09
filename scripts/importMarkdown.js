@@ -27,11 +27,13 @@ async function importMarkdownFiles() {
         const date = data.date ? new Date(data.date) : new Date();
         const description = data.description || '';
         const markdownPath = file;
+        const category = data.category;
 
         const articleData = {
           title,
           slug,
           date,
+          category,
           description,
           content,
           markdownPath,
@@ -44,6 +46,7 @@ async function importMarkdownFiles() {
             slug,
             date,
             description,
+            category,
             markdownPath,
           },
           { upsert: true }

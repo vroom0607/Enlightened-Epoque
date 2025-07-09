@@ -17,10 +17,27 @@
     </header>
 
   <nav class="site-nav">
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
-  </nav>
+  <ul class="nav-menu">
+    <li><a href="/">Home</a></li>
+
+    <li class="nav-item dropdown">
+      <a href="#" class="nav-link dropdown-toggle">Articles</a>
+      <ul class="dropdown-menu">
+        <% categories.forEach(category => { %>
+          <li>
+            <a href="/articles?category=<%= encodeURIComponent(category) %>">
+              <%= category %>
+            </a>
+          </li>
+        <% }) %>
+      </ul>
+    </li>
+
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+
 
   <main class="site-content">
     <%- body %> 

@@ -1,5 +1,6 @@
 ---
 title: "New Year New Me: Misunderstandings of Motivation"
+category: Wellness
 date: 2025-01-01T09:00:00.000+00:00
 description: "Are you sick of depending on motivation, only to have it wane before you reach your goals? This blog dives into why motivation is insufficient to bring about long-lasting change and presents a more sustainable approach: identity shifts. Discover how shifting your self-perception can transform your habits, make positive behaviors automatic, and position you for long-term success. Supported by bestselling books like Atomic Habits and The Power of Habit as well as research from Yale and the NIH, this post will teach you how to match your actions with your desired self. Ready to make this year different? Click the title to begin your journey!"
 ---

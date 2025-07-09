@@ -38,20 +38,69 @@ section {
 nav {
   background-color: #fff9f9;
   padding: 1em;
-  text-align: center;
   border-bottom: 2px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Dropdown container */
+  /* Dropdown menu */
+  /* Show dropdown on hover */
+  /* Dropdown menu items */
+  /* Dropdown links */
+  /* Hover effect on dropdown links */
 }
-nav a {
-  font-family: "Fleur De Leah", cursive;
+nav .nav-item.dropdown {
+  position: relative; /* needed for absolute dropdown */
+}
+nav .dropdown-menu {
+  display: none; /* hide by default */
+  position: absolute; /* position over content */
+  top: 100%; /* just below the parent */
+  left: 0;
+  background: #fff9f9;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  min-width: 150px;
+  padding: 0;
+  margin: 0;
+  list-style: none; /* remove bullets */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+nav .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+nav .dropdown-menu li {
+  margin: 0; /* reset margin */
+  padding: 0; /* reset padding */
+}
+nav .dropdown-menu li a {
+  display: block;
+  padding: 0.5rem 1rem;
   color: rgb(0, 0, 0);
-  margin: 0 30px;
-  font-weight: bold;
-  font-size: 24px;
   text-decoration: none;
-  transition: color 0.2s ease, text-decoration 0.2s ease;
-  cursor: pointer;
 }
-nav a:hover {
+nav .dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}
+nav .nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+nav .nav-menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  font-family: "Fleur De Leah", cursive;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+nav .nav-menu a:hover {
   color: rgb(164, 164, 164);
 }
 

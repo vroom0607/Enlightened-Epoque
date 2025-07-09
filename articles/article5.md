@@ -1,5 +1,6 @@
 ---
 title: A Breakdown of Color Theory
+category: Fashion
 date: 2025-03-18T09:00:00.000+00:00
 description: "Struggling to put together stylish outfits or wondering why some colors make you glow while others fall flat? This blog explores how understanding color theory can transform your approach to fashion—from creating flattering outfits to building a wardrobe that truly works for you. Discover how color influences mood, enhances your natural features, and simplifies shopping through tools like seasonal color analysis. Whether you're a style enthusiast or just want to look effortlessly put together, this post will show you how mastering color theory can make every outfit a confident statement. Ready to unlock your most polished self? Click the title to learn more!"
 ---

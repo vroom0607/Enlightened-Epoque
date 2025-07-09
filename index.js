@@ -27,6 +27,18 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(async (req, res, next) => {
+  try {
+    const categories = await Article.distinct('category');
+    res.locals.categories = categories.filter(Boolean).sort();
+    next();
+  } catch (err) {
+    console.error('Error fetching categories:', err);
+    res.locals.categories = [];
+    next();
+  }
+});
+
 // Route: Home page - list all articles
 app.get('/', async (req, res) => {
   try {
@@ -104,54 +116,7 @@ app.get('/images/:id', async (req, res) => {
   }
 });
 
-app.use('/', articlesRouter);
-
-// Route: Individual article
-app.get('/articles/:slug', async (req, res) => {
-  try {
-    const article = await Article.findOne({ slug: req.params.slug });
-    if (!article) {
-      return res.status(404).send('Article not found');
-    }
-
-    if (!article.markdownPath) {
-      console.error('Error: markdownPath is undefined for article:', article.slug);
-      return res.status(500).send('Article markdown path is missing');
-    }
-
-    const markdownFilePath = path.join(__dirname, 'articles', article.markdownPath);
-
-    let markdownContent;
-    try {
-      markdownContent = await fs.readFile(markdownFilePath, 'utf-8');
-    } catch (err) {
-      console.error('Error reading markdown file:', err);
-      return res.status(500).send('Error reading article content');
-    }
-
-    if (!markdownContent) {
-      console.error('Markdown content is empty for file:', markdownFilePath);
-      return res.status(500).send('Article content is empty');
-    }
-
-    // Parse frontmatter and content
-    const { content } = matter(markdownContent);
-
-    // Convert only markdown content (no frontmatter) to HTML
-    const htmlContent = marked(content);
-
-    res.render('article', {
-      title: article.title,
-      date: article.date,
-      description: article.description,
-      content: htmlContent,
-    });
-
-  } catch (error) {
-    console.error(error);
-    res.status(500).send('Server error');
-  }
-});
+app.use('/articles', articlesRouter);
 
 async function start() {
   try {

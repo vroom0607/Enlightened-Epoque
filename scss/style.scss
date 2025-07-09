@@ -55,25 +55,82 @@ section {
 }
 
 nav {
-  background-color: $color-white;
+  background-color: $color-pink-super-light;
   padding: 1em;
-  text-align: center;
   border-bottom: 2px solid $color-black;
 
-  a {
-    font-family: $font-cursive;
-    color: $color-black;
-    margin: 0 30px;
-    font-weight: bold;
-    font-size: 24px;
+  display: flex;   
+  justify-content: center;  
+  align-items: center;
+
+  /* Dropdown container */
+.nav-item.dropdown {
+  position: relative; /* needed for absolute dropdown */
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  display: none;            /* hide by default */
+  position: absolute;       /* position over content */
+  top: 100%;                /* just below the parent */
+  left: 0;
+  background: $color-pink-super-light;
+  border-radius: 5px;
+  border: 1px solid $border-color;
+  min-width: 150px;
+  padding: 0;
+  margin: 0;
+  list-style: none;         /* remove bullets */
+  box-shadow: 0 2px 8px $shadow-color;
+  z-index: 1000;
+}
+
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Dropdown menu items */
+.dropdown-menu li {
+  margin: 0;       /* reset margin */
+  padding: 0;      /* reset padding */
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: $color-black;
+  text-decoration: none;
+}
+
+/* Hover effect on dropdown links */
+.dropdown-menu li a:hover {
+  background-color: #f0f0f0;
+}
+
+  .nav-menu {
+    list-style: none;      
+    padding: 0;         
+    margin: 0;           
+    display: flex;      
+    gap: 3rem;             
+    align-items: center;
+  }
+
+  .nav-menu a {
     text-decoration: none;
-    transition: color 0.2s ease, text-decoration 0.2s ease;
+    color: $color-black;
+    font-weight: 500;
+    font-family: $font-cursive;
+    font-size: 24px;
     cursor: pointer;
+    transition: color 0.2s ease, text-decoration 0.2s ease;
 
     &:hover {
       color: $color-gray-light;
     }
-  }
+   }
 }
 
 a {

@@ -1,5 +1,6 @@
 ---
 title: "Outfit Styling 101: Everyday Elegance"
+category: Fashion
 date: 2025-04-01T09:00:00.000+00:00
 description: "Struggling to look put together without losing hours or having a massive closet? This post reveals two simple, life-altering methods—the Sandwich Method and staple outfits—that get dressed easily and stylishly, day after day. Learn how to create balance-friendly, harmonious outfits by layering with intentioned color and texture, and curate a go-to wardrobe of timesaving outfits that boost your confidence. No matter for day-to-day dressing or office wear, these tips help you simplify your routine without ever looking rumpled and sloppy. Want to step up your style with less effort? Click the title to find out how!"
 ---
