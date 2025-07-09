@@ -70,7 +70,7 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 
   try {
     const processedImageBuffer = await sharp(req.file.buffer)
-      .resize({ width: 200, withoutEnlargement: true })
+      .resize({ width: 350, withoutEnlargement: true })
       .jpeg({ quality: 100 }) 
       .toBuffer();
 

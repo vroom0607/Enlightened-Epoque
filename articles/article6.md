@@ -22,7 +22,7 @@ Add a middle layer in a complementary or contrasting color, like dark jeans, bla
 Match your shoes or accessories, such as beige flats, ankle boots, or a structured bag, to your top layer (Byrdie).
 **Here’s an example below:**
 
-![article image](/images/686dc542bb98581863c6da05)
+![article image](/images/686e32fbaac2bdb3cabcedce)
 
 By mirroring the top and bottom layers, you create a visual balance that's pleasing to the eye. The contrasting middle layer adds depth and prevents the outfit from looking monotonous. This approach works for all kinds of styles, from casual to business casual or even evening wear.
 
@@ -45,7 +45,7 @@ On days when you're unsure of what to wear, having a few tried-and-true staple o
 
 Staple outfits reflect your personal style and they can be anything you feel confident in. For example, I love throwing on a tank top with some jeans because they work as an outfit in the summer and can easily be worn with a cardigan or puffer jacket in the colder months as well. **Here’s an example below:**
 
-INSERT IMAGE HERE
+![article image 2](/images/686e334daac2bdb3cabcede1)
 
 ### **Why These Methods Work**
 Both the Sandwich Method and staple outfits focus on intentionality and simplicity, which are the cornerstones of effortless style. These methods minimize decision fatigue, ensuring you always feel confident in your choices. By sticking to a curated selection of basics and using simple styling strategies, you can create endless combinations that look polished and cohesive (Vogue, “How to Find Your Style”).

@@ -35,7 +35,6 @@ html {
 
 header {
   font-family: $font-cursive;
-  background-image: url('../database/images/headerBackground.jpeg');
   background-size: 500px 400px;
   background-position: center;
   color: $color-black;
@@ -285,5 +284,5 @@ main a {
   background-size: 500px 400px;     
   background-position: center;
   text-align: center;
-  color: white; 
+  color: $color-white; 
 }

@@ -16,7 +16,6 @@ html {
 
 header {
   font-family: "Fleur De Leah", cursive;
-  background-image: url("../database/images/headerBackground.jpeg");
   background-size: 500px 400px;
   background-position: center;
   color: rgb(0, 0, 0);
@@ -241,7 +240,7 @@ main a {
   background-size: 500px 400px;
   background-position: center;
   text-align: center;
-  color: white;
+  color: #fff9f9;
 }
 
 /*# sourceMappingURL=style.css.map */
