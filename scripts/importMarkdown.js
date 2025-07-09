@@ -21,7 +21,8 @@ async function importMarkdownFiles() {
         // console.log(`Description for ${file}:`, data.description);
         
         // Required fields fallback:
-        const slug = path.basename(file, '.md');
+        //const slug = path.basename(file, '.md');
+        const slug = data.slug || path.basename(file, '.md');
         const title = data.title || slug.replace(/-/g, ' ');
         const date = data.date ? new Date(data.date) : new Date();
         const description = data.description || '';
@@ -37,9 +38,15 @@ async function importMarkdownFiles() {
         };
 
         await Article.findOneAndUpdate(
-          { slug },
-          articleData,
-          { upsert: true, new: true }
+          { slug }, 
+          {
+            title,
+            slug,
+            date,
+            description,
+            markdownPath,
+          },
+          { upsert: true }
         );
 
         console.log(`Imported: ${file}`);

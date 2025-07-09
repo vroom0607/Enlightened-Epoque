@@ -1,11 +1,12 @@
 $font-primary: 'Alumni Sans Pinstripe', Georgia, 'Times New Roman', Times, serif;
 $font-cursive: 'Fleur De Leah', cursive;
 $color-black: rgb(0, 0, 0);
-$color-white: #ffffff;
+$color-white: #fff9f9;
 $color-gray-light: rgb(164, 164, 164);
-$color-pink: #f1d6d9;
+$color-pink: #ffffff;
 $color-pink-light: #ffeeee;
 $color-pink-dark: #ff9a9a;
+$color-pink-super-light: #fff9f9;
 $border-color: #ddd;
 $shadow-color: rgba(0, 0, 0, 0.1);
 $max-width: 800px;
@@ -20,7 +21,7 @@ body {
   font-family: $font-primary;
   margin: 0;
   padding: 0;
-  background-color: $color-white;
+  background-color: $color-pink-super-light;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
