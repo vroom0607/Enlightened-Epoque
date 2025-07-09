@@ -14,17 +14,14 @@ router.get('/', async (req, res) => {
   try {
     const articles = await Article.find(filter).sort({ date: -1 });
 
-    if (category) {
-      res.render('category', {
-        title: `Category: ${category}`,
-        articles,
-      });
-    } else {
-      res.render('index', {
-        title: 'Home',
-        articles,
-      });
-    }
+    const pageTitle = category ? `Category: ${category}` : 'All Articles';
+    const heading = category || 'All Articles';
+
+    res.render('category', {
+      title: pageTitle,
+      heading,
+      articles,
+    });
   } catch (err) {
     console.error(err);
     res.status(500).send('Server error');

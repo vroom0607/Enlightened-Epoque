@@ -42,7 +42,10 @@ app.use(async (req, res, next) => {
 // Route: Home page - list all articles
 app.get('/', async (req, res) => {
   try {
-    const articles = await Article.find({}).sort({ date: -1 });
+    const articles = await Article.find({})
+      .sort({ date: -1 })  
+      .limit(5);
+
     res.render('index', { title: 'Home', articles });
   } catch (error) {
     console.error(error);
