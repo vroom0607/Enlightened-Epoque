@@ -17,27 +17,40 @@
     </header>
 
   <nav class="site-nav">
-  <ul class="nav-menu">
-    <li><a href="/">Home</a></li>
+    <div class="nav-left">
+      <form action="/articles/search" method="GET">
+        <input
+          type="text"
+          name="q"
+          placeholder="Search articles"
+          aria-label="Search articles"
+        />
+      </form>
+    </div>
 
-    <li class="nav-item dropdown">
-      <a href="/articles" class="nav-link dropdown-toggle">Articles</a>
-      <ul class="dropdown-menu">
-        <% categories.forEach(category => { %>
-          <li>
-            <a href="/articles?category=<%= encodeURIComponent(category) %>">
-              <%= category %>
-            </a>
-          </li>
-        <% }) %>
+    <div class="nav-center">
+      <ul class="nav-menu">
+        <li><a href="/">Home</a></li>
+
+        <li class="nav-item dropdown">
+          <a href="/articles" class="nav-link dropdown-toggle">Articles</a>
+          <ul class="dropdown-menu">
+            <% categories.forEach(category => { %>
+              <li>
+                <a href="/articles?category=<%= encodeURIComponent(category) %>">
+                  <%= category %>
+                </a>
+              </li>
+            <% }) %>
+          </ul>
+        </li>
+
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
       </ul>
-    </li>
-
-    <li><a href="/about">About</a></li>
-    <li><a href="/contact">Contact</a></li>
-  </ul>
-</nav>
-
+    </div>
+    <div class="nav-right"></div>
+  </nav>
 
   <main class="site-content">
     <%- body %> 

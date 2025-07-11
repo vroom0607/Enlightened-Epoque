@@ -14,7 +14,7 @@ async function importMarkdownFiles() {
     for (const file of files) {
       if (path.extname(file) === '.md') {
         const filePath = path.join(articlesDir, file);
-        const fileContent = fs.readFileSync(filePath, 'utf-8');
+        const fileContent = await fs.promises.readFile(filePath, 'utf-8');
 
         // Parse frontmatter with gray-matter
         const { data, content } = matter(fileContent);
@@ -28,12 +28,18 @@ async function importMarkdownFiles() {
         const description = data.description || '';
         const markdownPath = file;
         const category = data.category;
+        const tags = Array.isArray(data.tags)
+          ? data.tags
+          : data.tag
+            ? [data.tag]
+            : [];
 
         const articleData = {
           title,
           slug,
           date,
           category,
+          tags,
           description,
           content,
           markdownPath,
@@ -45,8 +51,10 @@ async function importMarkdownFiles() {
             title,
             slug,
             date,
+            tags,
             description,
             category,
+            content,
             markdownPath,
           },
           { upsert: true }

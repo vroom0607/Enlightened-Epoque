@@ -2,6 +2,9 @@ const express = require('express');
 const router = express.Router();
 const Article = require('../models/Article');
 const { marked } = require('marked');
+const fs = require('fs').promises;
+const path = require('path');
+const matter = require('gray-matter');
 
 // List all articles or filter by category
 router.get('/', async (req, res) => {
@@ -28,6 +31,74 @@ router.get('/', async (req, res) => {
   }
 });
 
+router.get('/search', async (req, res) => {
+  const { q } = req.query;
+
+  if (!q || q.trim() === '') {
+    return res.render('search', {
+      articles: [],
+      query: '',
+      title: 'Search',
+      heading: 'Search'
+    });
+  }
+
+  try {
+    const results = await Article.aggregate([
+      {
+        $search: {
+          index: 'default',
+          compound: {
+            should: [
+              {
+                text: {
+                  query: q,
+                  path: 'title',
+                  fuzzy: { maxEdits: 1 }
+                }
+              },
+              {
+                text: {
+                  query: q,
+                  path: 'description',
+                  fuzzy: { maxEdits: 1 }
+                }
+              },
+              {
+                text: {
+                  query: q,
+                  path: 'content',
+                  fuzzy: { maxEdits: 1 }
+                }
+              },
+              {
+                text: {
+                  query: q,
+                  path: 'tags',
+                  fuzzy: { maxEdits: 1 }
+                }
+              }
+            ],
+            minimumShouldMatch: 1
+          }
+        }
+      },
+      { $limit: 10 }
+    ]);
+
+    res.render('search', {
+      articles: results,
+      query: q,
+      title: `Search results for "${q}"`,
+      heading: `Search results for "${q}"`
+    });
+
+  } catch (err) {
+    console.error('Atlas Search Error:', err);
+    res.status(500).send('Search failed');
+  }
+});
+
 // Show a single article by slug
 router.get('/:slug', async (req, res) => {
   try {
@@ -37,14 +108,7 @@ router.get('/:slug', async (req, res) => {
       return res.status(404).send('Article not found');
     }
 
-    const fs = require('fs').promises;
-    const path = require('path');
-    const matter = require('gray-matter');
-
-    const filePath = path.join(__dirname, '../articles', article.markdownPath);
-    const fileContent = await fs.readFile(filePath, 'utf-8');
-    const { content } = matter(fileContent);
-    const htmlContent = marked(content);
+    const htmlContent = marked(article.content || '');
 
     res.render('article', {
       article,
