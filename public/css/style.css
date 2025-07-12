@@ -65,7 +65,7 @@ section {
 }
 .site-nav form input[type=text] {
   padding: 0.4em 0.8em;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 9999px;
   font-size: 1rem;
   font-family: "Fleur De Leah", cursive;
@@ -203,7 +203,7 @@ table td {
 }
 
 footer {
-  background-color: #fff9f9;
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 1em 0;
@@ -267,7 +267,7 @@ main a {
   background-size: 500px 400px;
   background-position: center;
   text-align: center;
-  color: #fff9f9;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
