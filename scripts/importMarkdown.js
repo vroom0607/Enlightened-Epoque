@@ -63,8 +63,7 @@ async function importMarkdownFiles() {
         console.log(`Imported: ${file}`);
       }
     }
-
-    console.log('All markdown files imported!');
+    
   } catch (err) {
     console.error('Error importing markdown files:', err);
   }
