@@ -1,10 +1,16 @@
 const express = require('express');
 const router = express.Router();
 const Article = require('../models/Article');
-const { marked } = require('marked');
 const fs = require('fs').promises;
 const path = require('path');
 const matter = require('gray-matter');
+
+let marked;
+
+(async () => {
+  const mod = await import('marked');
+  marked = mod.marked;
+})();
 
 // List all articles or filter by category
 router.get('/', async (req, res) => {
@@ -102,6 +108,11 @@ router.get('/search', async (req, res) => {
 // Show a single article by slug
 router.get('/:slug', async (req, res) => {
   try {
+    if (!marked) {
+      const mod = await import('marked');
+      marked = mod.marked;
+    }
+    
     const article = await Article.findOne({ slug: req.params.slug });
 
     if (!article) {

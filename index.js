@@ -3,7 +3,6 @@ const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
 const fs = require('fs').promises;
-const { marked } = require('marked');
 const Article = require('./models/Article');
 const articlesRouter = require('./routes/articles');
 const matter = require('gray-matter');
@@ -14,6 +13,7 @@ const mongooseGridFSBucket = require('mongoose').mongo.GridFSBucket;
 const sharp = require('sharp');
 
 let gridfsBucket;
+let marked;
 
 const app = express();
 
@@ -122,6 +122,9 @@ app.get('/images/:id', async (req, res) => {
 app.use('/articles', articlesRouter);
 
 async function start() {
+  const mod = await import('marked');
+  marked = mod.marked;
+  
   try {
     await mongoose.connect(process.env.MONGO_URI);
     console.log('MongoDB connected');
