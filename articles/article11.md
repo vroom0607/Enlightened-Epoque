@@ -1,7 +1,7 @@
 ---
 title: "Effective Study Methods Backed by Science"
 category: Productivity
-date: 2025-10-13T09:00:00.000+00:00
+date: 2025-10-15T09:00:00.000+00:00
 tags: [study, productivity, lazy, tired, stress, health]
 description: "Ever wonder why your peers can achieve such high grades with seemingly low effort? It’s because they work with their brain, not against it. Discover new ways to productively utilize your study time and transform your outcomes for the better! With science backed tips from experts, learning will come feasibly in no time! Watch as your memory and ability to grapple with concepts improve overnight with these simple techniques. Ready to unlock true academic potential? Click to learn how!"
 ---
@@ -29,12 +29,12 @@ Smits, Eva J. C., et al. “Investigating the Effectiveness of Self-Regulated, P
 
 “Understanding Effort Regulation: Comparing ‘Pomodoro’ Breaks and Self-Regulated Breaks.” PubMed, pubmed.ncbi.nlm.nih.gov/36859717. Accessed 12 Oct. 2025.
 
-“Pomodoro Technique: History, Steps, Benefits, and Drawbacks.” Verywell Mind, www.verywellmind.com/pomodoro-technique-history-steps-benefits-and-drawbacks-6892111. Accessed 12 Oct. 2025.
+“Pomodoro Technique: History, Steps, Benefits, and Drawbacks.” Verywell Mind, www.verywellmind.com/pomodoro-technique-history-steps-benefits-and-drawbacks-6892111. Accessed 11 Oct. 2025.
 
 “Spaced Repetition and Mnemonics Enable Recall of Multiple Strong Passwords.” arXiv, arxiv.org/abs/1410.1490. Accessed 12 Oct. 2025.
 
 “Active Recall - Study & Revision: A Practical Guide.” University of York Subject Guides, subjectguides.york.ac.uk/study-revision/active-recall. Accessed 12 Oct. 2025.
 
-“7 Evidence-Based Study Strategies (And How to Use Each).” Med School Insiders, medschoolinsiders.com/study-strategies/7-evidence-based-study-strategies-how-to-use-each. Accessed 12 Oct. 2025.
+“7 Evidence-Based Study Strategies (And How to Use Each).” Med School Insiders, medschoolinsiders.com/study-strategies/7-evidence-based-study-strategies-how-to-use-each. Accessed 14 Oct. 2025.
 
 “How to Use Active Recall and Spaced Repetition.” SC Training Blog, training.safetyculture.com/blog/how-to-use-active-recall-and-spaced-repetition-to-study. Accessed 12 Oct. 2025.
