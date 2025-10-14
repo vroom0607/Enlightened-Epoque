@@ -1,7 +1,7 @@
 ---
 title: "Style From the Ground Up: Styling Footwear"
 category: Fashion
-date: 2025-04-21T09:00:00.000+00:00
+date: 2025-06-22T09:00:00.000+00:00
 tags: [fashion, shoes, style, outfit, footwear, feet, brands, aesthetic, style]
 description: "Having a polished outfit with shoes that clash can ruin an entire look completely. Having mastered the art of creating cohesive outfits, it's time to apply the same thought to your footwear. Having the ability to match your shoes to the day-to-day events is key to sustaining an intentional wardrobe (American Podiatric Medical Association; Harper’s Bazaar Editors). Ready to revamp your shoe styling game? After reading, you’ll be able to choose the right footwear to keep your fashion game strong!"
 ---
@@ -43,10 +43,9 @@ Anything lined or waterproof is a great option in the late autumn or winter. Sty
 Being able to pick out a nice pair of shoes that compliment your outfit is just as important as having a put-together outfit in the first place. Not only does the right footwear typically make executing tasks in our lives easier, they also aid us in feeling chic and dressed with intention. Thoughtful footwear choices not only express your personal style but also ensure comfort and function. Style smart from the ground up (GQ Editors).
 
 ### **References:**
-American Podiatric Medical Association. Foot Health Facts. www.apma.org. Accessed 20 April 2025.
+American Podiatric Medical Association. Foot Health Facts. www.apma.org. Accessed 19 June 2025.
+GQ Editors. “The Best Sneakers for Men in 2024.” GQ, www.gq.com/story/best-sneakers-men. Accessed 20 June 2025.
 
-GQ Editors. “The Best Sneakers for Men in 2024.” GQ, www.gq.com/story/best-sneakers-men. Accessed 20 April 2025.
+Harper’s Bazaar Editors. “The Best Comfortable Shoes That Are Also Chic.” Harper’s Bazaar, www.harpersbazaar.com/fashion/trends/g38735447/best-comfortable-shoes. Accessed 20 June 2025.
 
-Harper’s Bazaar Editors. “The Best Comfortable Shoes That Are Also Chic.” Harper’s Bazaar, www.harpersbazaar.com/fashion/trends/g38735447/best-comfortable-shoes. Accessed 20 April 2025.
-
-Vogue Fashion Editors. “How to Style Sneakers Like a Fashion Editor.” Vogue, www.vogue.com/article/sneaker-outfit-ideas. Accessed 20 April 2025.
+Vogue Fashion Editors. “How to Style Sneakers Like a Fashion Editor.” Vogue, www.vogue.com/article/sneaker-outfit-ideas. Accessed 20 June 2025.

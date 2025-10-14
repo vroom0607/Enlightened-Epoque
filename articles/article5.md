@@ -1,7 +1,7 @@
 ---
 title: A Breakdown of Color Theory
 category: Fashion
-date: 2025-03-18T09:00:00.000+00:00
+date: 2025-04-27T09:00:00.000+00:00
 tags: [color, fashion, style, palette]
 description: "Everyone has colors that hues that suit their skin tone perfectly; some may make you radiate while others seem to wash you away. Understanding color theory is the ultimate hack to transform your fashion choices, upgrading your style entirely. By harnessing the unlimited power of this science-backed discovery, learn how different colors influence mood and others’ perception of yourself. After reading, you’ll have reinvented your identity to be polished and put together–with minimal effort."
 ---
@@ -44,8 +44,8 @@ For a precise analysis, you can use tools like Colorwise.me, which helps determi
 Mastering color theory in fashion helps you create cohesive, flattering outfits effortlessly. Whether it’s through selecting colors that enhance your natural features or building a wardrobe that feels intentional and stylish, understanding color theory ensures that every outfit makes an impact. By investing in timeless, well-coordinated colors, you’ll always look put together—no matter the occasion.
 
 ### **References**
-"Find Your Best Colors with Color Analysis." Colorwise.me, https://colorwise.me/. Accessed 17 Mar. 2025.
+"Find Your Best Colors with Color Analysis." Colorwise.me, https://colorwise.me/. Accessed 22 Apr. 2025.
 
-"The Power of Color: Exploring the World of Color Theory in Marketing." PALO Creative, https://www.palocreative.com/blog/the-power-of-color-exploring-the-world-of-color-theory-in-marketing. Accessed 17 Mar. 2025.
+"The Power of Color: Exploring the World of Color Theory in Marketing." PALO Creative, https://www.palocreative.com/blog/the-power-of-color-exploring-the-world-of-color-theory-in-marketing. Accessed 23 Apr. 2025.
 
-"The 7-Step Guide to Understanding Color Theory." 99designs, 99designs by Vista, https://99designs.com/blog/tips/the-7-step-guide-to-understanding-color-theory. Accessed 17 Mar. 2025.
+"The 7-Step Guide to Understanding Color Theory." 99designs, 99designs by Vista, https://99designs.com/blog/tips/the-7-step-guide-to-understanding-color-theory. Accessed 23 Apr. 2025.

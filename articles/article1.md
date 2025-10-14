@@ -1,6 +1,6 @@
 ---
 title: "New Year New Me: Misunderstandings of Motivation"
-category: Wellness
+category: Productivity
 date: 2025-01-01T09:00:00.000+00:00
 tags: [motivation, wellness, mental health]
 description: "Are you sick of constantly relying on motivation, only to have it disappear before you reach your goals? This post will dive into the real secret behind success: identity shifts. Discover why motivation is insufficient to bring about real change and how changing your self-perception can radically transform your habits. Supported by bestselling books like Atomic Habits and The Power of Habit as well as research from Yale University and the National Institute of Health, you will begin to pick up on the tips that position you for long-term success. Ready to make this year different? Click the title to begin your journey!"

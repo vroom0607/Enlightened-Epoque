@@ -1,7 +1,7 @@
 ---
 title: "Outfit Styling 101: Everyday Elegance"
 category: Fashion
-date: 2025-04-01T09:00:00.000+00:00
+date: 2025-05-25T09:00:00.000+00:00
 tags: [fashion, color, style, outfit]
 description: "Want to step up your style with minimal effort? This post will unlock the magic of a few simple tricks and tips that’ll instantly upgrade your presence. Combining previous topics (timeless closet staples) with these fashion hacks, master the Sandwich Method and designing some foolproof outfits for those days where you’re short on time. After reading, you’ll have simplified your fashion struggles for good and create an outfit that matches any occasion. With these measures solidified in your lookbook, it’ll be impossible to look chaotic or sloppy. Ready to dress with intention? Click to find out how!"
 ---
@@ -58,10 +58,9 @@ These methods minimize decision fatigue, ensuring you always feel confident in y
 Looking put together doesn't have to be overwhelming; let’s reduce the clutter in our minds and closet by focusing on a different perspective. We have been tricked by society into believing curating an aesthetic outfit requires energy and time. Diverting our attention to building simple but cohesive looks prioritizes not only fashion, but also timelessness and consistency. Let’s all upgrade our lookbook for life!
 
 ### **References**
-"How to Find Your Style." Vogue, Condé Nast, https://www.vogue.com/article/how-to-find-your-style. Accessed 29 March 2025.
+"How to Find Your Style." Vogue, Condé Nast, https://www.vogue.com/article/how-to-find-your-style. Accessed 21 May 2025.
+"The Art of Sandwich Dressing: A Unique Styling Trick." The Wardrobe Consultant, 2025, https://www.thewardrobeconsultant.com/blog/the-art-of-sandwich-dressing-a-unique-styling-trick. Accessed 20 May 2025.
 
-"The Art of Sandwich Dressing: A Unique Styling Trick." The Wardrobe Consultant, 2025, https://www.thewardrobeconsultant.com/blog/the-art-of-sandwich-dressing-a-unique-styling-trick. Accessed 29 March 2025.
+"TikTok's Sandwich Fashion Hack." Byrdie, Dotdash Meredith, https://www.byrdie.com/tiktok-sandwich-fashion-hack-7501555. Accessed 22 May 2025.
 
-"TikTok's Sandwich Fashion Hack." Byrdie, Dotdash Meredith, https://www.byrdie.com/tiktok-sandwich-fashion-hack-7501555. Accessed 29 March 2025.
-
-"What Are the Capsule Wardrobe Essentials?" Vogue, Condé Nast, https://www.vogue.co.uk/fashion/article/capsule-wardrobe-essentials. Accessed 29 March 2025.
+"What Are the Capsule Wardrobe Essentials?" Vogue, Condé Nast, https://www.vogue.co.uk/fashion/article/capsule-wardrobe-essentials. Accessed 20 May 2025.
