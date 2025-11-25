@@ -1,7 +1,7 @@
 ---
 title: A Breakdown of Color Theory
 category: Fashion
-date: 2025-04-27T09:00:00.000+00:00
+date: 2025-05-01T09:00:00.000+00:00
 tags: [color, fashion, style, palette]
 description: "Everyone has colors that hues that suit their skin tone perfectly; some may make you radiate while others seem to wash you away. Understanding color theory is the ultimate hack to transform your fashion choices, upgrading your style entirely. By harnessing the unlimited power of this science-backed discovery, learn how different colors influence mood and others’ perception of yourself. After reading, you’ll have reinvented your identity to be polished and put together–with minimal effort."
 ---
