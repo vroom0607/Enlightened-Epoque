@@ -20,7 +20,7 @@ Accessories should mirror the vibe of the event. Items like a glittery purse or 
 ### __Build Around Your Outfit__
 This may seem like a straightforward approach, but it’s important nonetheless! Picture your clothes as the main course and your accessories as the appetizer, sides, and dessert. All the items before and after the main dish should complement it, not distracting from it right? Before stepping foot out the door, ensure that all your supporting accessories fit the aesthetic of the look you’re going for. If your outfit is more basic, you can add more items to add more personality to it. If your outfit is more eye-catching, consider opting for a simple bag and earrings. Balance is always key with styling. Nordstrom recommends keeping it simple and prioritizing practicality when you’re unsure of what to do to avoid visual noise.
 
-### __Final Thoughts__
+### __Closing Thoughts__
 Accessorising isn't about overcrowding. It’s easy for us to get carried away with these items but when we take a step back and ground ourselves with intention, it’s easy to see that true style lies with being clever and logical. By grounding your look in 1-2 statement pieces, matching metals and colors with purpose, and building around your outfit, you create a look that’s harmonious and confident. It’s a common phrase heard in our lives by sometimes less is more!
 
 ### __References__

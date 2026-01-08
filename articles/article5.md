@@ -40,7 +40,7 @@ First, determine your undertones:
 
 For a precise analysis, you can use tools like Colorwise.me, which helps determine your ideal color palette!
 
-### **Final Thoughts**
+### **Closing Thoughts**
 Mastering color theory in fashion helps you create cohesive, flattering outfits effortlessly. Whether it’s through selecting colors that enhance your natural features or building a wardrobe that feels intentional and stylish, understanding color theory ensures that every outfit makes an impact. By investing in timeless, well-coordinated colors, you’ll always look put together—no matter the occasion.
 
 ### **References**

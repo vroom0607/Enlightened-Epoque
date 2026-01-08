@@ -54,7 +54,7 @@ At the end of the day, these core outfits should be reflective of your personal 
 These 2 methods both focus on simple and sustainable outfits that ensure intentionality and versatility. These strategies target the stress behind fashion-related choices in our daily lives. 
 These methods minimize decision fatigue, ensuring you always feel confident in your choices. By sticking to a curated selection of basics and using simple styling strategies, you can create endless combinations that look polished and cohesive (Vogue, “How to Find Your Style”).
 
-### **Final Thoughts**
+### **Closing Thoughts**
 Looking put together doesn't have to be overwhelming; let’s reduce the clutter in our minds and closet by focusing on a different perspective. We have been tricked by society into believing curating an aesthetic outfit requires energy and time. Diverting our attention to building simple but cohesive looks prioritizes not only fashion, but also timelessness and consistency. Let’s all upgrade our lookbook for life!
 
 ### **References**

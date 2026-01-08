@@ -29,7 +29,7 @@ Here are some ideas to get a headstart to fixing your sleep!
 
 - **Address Stressors:** Add in any stress-relieving techniques (journaling, deep breathing, or mindfulness) before bedtime (Mayo Clinic).
 
-### **Final Thoughts**
+### **Closing Thoughts**
 Being such an important aspect of our everyday lives, it’s essential to prioritize sleep as much as maintaining a healthy diet or staying fit. Being well-rested each day is a step in the right direction towards a happier, healthier, and harmonious life. Don’t get caught up focusing on perfection: life happens. Instead, focus on consistency.  Let’s continue to foster healthy sleep patterns by preserving healthy sleep hygiene habits at all times!
 
 ### **References**

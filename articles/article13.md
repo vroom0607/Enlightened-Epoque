@@ -1,7 +1,7 @@
 ---
 title: "Planning the Ultimate 2026"
 category: "Lifestyle and Wellness"
-date: 2026-01-05T09:00:00.000+00:00
+date: 2026-01-01T09:00:00.000+00:00
 tags: [health, new, year, better, improvement, productivity, happiness, lifestyle, better, wellness, planner, Notion]
 description: "In this new digital age, productivity is glamorized all over social media. If you feel guilty or behind for not being perfectly organized, don’t be! It’s not as hard as people make it seem. Productivity is not about accessing every tool possible but rather finding the right ones for you. Here, with the tips from experts broken down, you’ll discover if you thrive with good old pen and paper or excel in newfound technology. 2026 is about to be the year you truly unlock unlimited potential and this post will guide you in the right direction. Click to unlock it!"
 ---
@@ -91,12 +91,12 @@ As Harvard Business Review notes, productivity tools should reduce cognitive eff
 Productivity is not defined about aesthetics; it’s about designing a plan that works for us. The most effective tool is the one we’ll actually use consistently. When organization works with our lifestyle instead of against it, productivity stops feeling forced and starts feeling natural.Let’s align our lives together for this upcoming year and make 2026 a year to remember!
 
 ### **References**
-American Psychological Association. “Clutter and Mental Health.” APA, www.apa.org. Accessed 18 Nov. 2025.
+American Psychological Association. “Clutter and Mental Health.” APA, www.apa.org. Accessed 18 Dec. 2025.
 
-Harvard Business Review. “How to Choose the Right Productivity Tools.” Harvard Business Review, 2023, hbr.org. Accessed 18 Nov. 2025.
+Harvard Business Review. “How to Choose the Right Productivity Tools.” Harvard Business Review, 2023, hbr.org. Accessed 18 Dec. 2025.
 
 Mark, Gloria, et al. “The Cost of Interrupted Work.” Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 2008.
 
 Mueller, Pam A., and Daniel M. Oppenheimer. “The Pen Is Mightier Than the Keyboard.” Psychological Science, vol. 25, no. 6, 2014, pp. 1159–68.
 
-Notion Labs. “Getting Started with Notion.” Notion, www.notion.so. Accessed 18 Nov. 2025.
+Notion Labs. “Getting Started with Notion.” Notion, www.notion.so. Accessed 18 Dec. 2025.

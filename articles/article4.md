@@ -100,7 +100,7 @@ Bearing an iconic monogram, Louis Vuitton has solidified its reign as a trusted 
 - **[Hermès](https://www.hermes.com/)**
 Recognized as the brand behind the famous Birkin, this brand has built up an aura of refinement, grace, and timeless elegance. From jewelry to purses, it has you covered–with premium craftsmanship and aesthetic designs.
 
-### **Final Thoughts**
+### **Closing Thoughts**
 Beyond the factor of aesthetics, investing in well-crafted accessories is a must if we want to elevate any look you may choose to sport. After analyzing cost-per-wear outcomes of these investment pieces, we can see that there is 1 clear winner here: the high-quality necklace or the sturdy purse. Social media may convince us that having a large collection of jewelry or bags is the solution to preventing any fashion faux pas; however, the real antidote lies in purchasing timeless and durable items first. Since these pieces last for years to come, we can gradually build up a small but well-crafted rotation of accessories on hand. The trick is to avoid impulse spending and practice careful thought instead!
 
 ### **References**

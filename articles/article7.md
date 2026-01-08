@@ -39,7 +39,7 @@ Anything lined or waterproof is a great option in the late autumn or winter. Sty
 
 - **Socks:** Usually white ankle or crew socks tie everything together quite nicely.
 
-### **Final Thoughts**
+### **Closing Thoughts**
 Being able to pick out a nice pair of shoes that compliment your outfit is just as important as having a put-together outfit in the first place. Not only does the right footwear typically make executing tasks in our lives easier, they also aid us in feeling chic and dressed with intention. Thoughtful footwear choices not only express your personal style but also ensure comfort and function. Style smart from the ground up (GQ Editors).
 
 ### **References:**

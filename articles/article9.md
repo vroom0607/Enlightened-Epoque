@@ -42,7 +42,7 @@ After ensuring your safety and efficiency, it’s time to tackle vacation planni
 ### **Cultural Sensitivity**
 As travelers, it's crucial to be aware of traditional customs, whether they align with our beliefs or not. We are stepping foot into their home and we should treat it with dignity and respect. Let’s leave the local population a positive impression of us tourists. Simple gestures — from following cultural customs and dress codes to learning their etiquette and language — go a long way. The United Nations World Tourism Organization also highly suggests to us travelers to reduce our carbon footprint by taking public transportation, supporting local businesses, and steering away from overtouristed destinations if at all possible.
 
-### **Final Thoughts**
+### **Closing Thoughts**
 Traveling can make more than memories; it can build connection and foster growth. Exploring the world with the people we love doesn’t have to be difficult or a burden at all. Let’s stay safe, pack smart, and immerse ourselves in the many beautiful cultures and places Earth has to offer.
 
 ### **References**

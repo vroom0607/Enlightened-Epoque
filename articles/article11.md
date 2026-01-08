@@ -21,7 +21,7 @@ Empirical research studies suggest that structured, self-monitored breaks (such 
 ### **Caveats for Consideration**
 Always customize your study habits to YOU. For example, users of the Pomodoro Method should keep in mind that these breaks may impact your motivation negatively more than following less rigid break schedules (PMC, MDPI). This method is effective overall but you should consider your strengths and weaknesses when deciding what study method to use. Certain techniques will fare better with different people; it’s essential to explore different practices and retain the types that work under your personal circumstances. 
 
-### **Final Thoughts**
+### **Closing Thoughts**
 Studying isn’t a one-size fits all approach but rather a trial-and-error to find the best blends of methods that work for us. Upon reading, let’s make a conscious effort to ditch the seemingly productive techniques for efficient and effective practices instead. Cheers to better memory, stellar grades, and a brighter future!
 
 ### **References**

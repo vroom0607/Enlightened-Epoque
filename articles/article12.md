@@ -32,13 +32,14 @@ When your gut microbiome gets out of balance (a state known as “dysbiosis”),
 ### **Supporting a Healthy Gut**
 Simply put, doing the opposite of what hurts your gut will deliver promising results. **Let’s touch on each one:**
 
-- **Healthy Diet:** Foods high in fiber (think vegetables, whole grains, legumes, nuts, and fruit) feed the good gut bacteria. Fiber helps produce short-chain fatty acids that support gut-lining health and reduce inflammation (Cleveland Clinic, MDPI). **Bonus tip: including fermented food (kimchi, sauerkraut, or just plain old yogurt) will drastically benefit your gut too!** (Cleveland Clinic).
+- **Healthy Diet:** Foods high in fiber (think vegetables, whole grains, legumes, nuts, and fruit) feed the good gut bacteria. Fiber helps produce short-chain fatty acids that support gut-lining health and reduce inflammation (Cleveland Clinic, MDPI). 
+    - **Bonus tip:** including fermented food (kimchi, sauerkraut, or just plain old yogurt) will drastically benefit your gut too! (Cleveland Clinic).
 
 - **Avoid Antibiotics if Possible:** Of course, leaving an unwanted virus in your system is not what we’re advocating for here! We simply want you to be cautious of how much disruption your gut is facing because as stated above, gut-altering medication can seriously endanger the population of healthy microorganisms (Mayo Clinic McPress; Cleveland Clinic)
 
 - **Promote a Healthy Lifestyle:** Try to get some steps in, practice good sleep hygiene (we’ve covered this one in a past blog post!), and find methods that reduce stress for you. Don’t forget to hydrate as well! All these factors play a key role in a healthy gut (Cleveland Clinic; mint).
 
-### **Final Thoughts**
+### **Closing Thoughts**
 Maintaining a healthy gut isn’t about indulging in all the supplements marketed on social media but rather focusing on the simple proven facts that we all know. Routine exercise, restful sleep, healthy diets, and clear headspaces are all aspects of a well-rounded life that we all deserve and should protect. A little attention can go a very long way. Our gut will thank us in ways we might not expect!
 
 ### **References**
